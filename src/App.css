@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+/* H E A D E R  S T A R T */
+
+.Header{
+  background-color: white;
+  min-height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 15px 10px 20px 10px;
+}
+
+.Header .logo{
+  width: 45px;
+  height: 45px;
+  margin-left: 20px;
+}
+
+.Header .search-bar{
+  width: 400px;
+  height: 50px;
+  border: 1px solid #e3e3e3;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding-left: 20px;
+  margin-left: 80px;
+}
+
+.Header .search-bar input{
+  padding: 0px 10px;
+  margin: 0px 10px;
+  --moz-appearance: none;
+  border-radius: 0px;
+  text-transform: uppercase;
+  border-style: none;
+  border-right: 1px solid #e3e3e3;
+}
+
+.Header .search-bar .search-icon{
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.Header .write-up{
+  width: 150px;
+  height: 50px;
+
+}
+
+.Header .search-bar p{
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.Header .write-up .userImg{
+  width: 35px;
+  height: 35px;
+  padding-top: 5px;
+
+}
+
+/* H E A D E R   E N D */
+
+
+/* B A R  S T A R T */
+
+
+.Bar{
+  height: 100px;
+  padding-top: 10px;
+
+}
+
+.Bar .write-up{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Bar .write-up p{
+  width: 60px;
+  font-size: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #e3e3e3;
+  margin-right: 5px;
+}
+
+.Bar .explore{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 80px;
+  border-top: 1px solid #e3e3e3;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 20px 0 0 30px;
+
+  
+}
+
+
+/* C A R D  S T A R T */
+.cardRow{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 50px;
+}
+
+.Card{
+  width: 350px;
+  height: 350px;
+  line-height: 5px;
+  box-shadow: 5px 5px 5px 5px #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  border-top-left-radius: 10px;
+ 
+}
+
+.Card, .cardImgs{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.Card .cardImgs{
+
+  width: 350px;
+  height:280px;
+  /* margin-top: 5px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.Card .write-up{
+  height: 50px;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
